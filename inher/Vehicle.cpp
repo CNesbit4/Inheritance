@@ -1,11 +1,6 @@
 #include "Vehicle.h"
 #include <iostream>
 
-Vehicle::Vehicle()
-{
-	manafacturer = ""; year = 2022;
-}
-
 Vehicle::Vehicle(std::string maker, int made)
 {
 	manafacturer = maker; year = made;

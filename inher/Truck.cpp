@@ -1,7 +1,7 @@
 #include "Truck.h"
 #include <iostream>
 
-Truck::Truck(std::string maker, int made, int towing)
+Truck::Truck(std::string maker, int made, int towing) : Vehicle(maker, made)
 {
 	manafacturer = maker, year = made, towingCapacity = towing;
 }

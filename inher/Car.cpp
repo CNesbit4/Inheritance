@@ -1,7 +1,7 @@
 #include "Car.h"
 #include <iostream>
 
-Car::Car(std::string maker, int made, int doorCount)
+Car::Car(std::string maker, int made, int doorCount) : Vehicle(maker, made)
 {
 	manafacturer = maker; year = made; doors = doorCount;
 }
